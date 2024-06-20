@@ -39,7 +39,7 @@ $row = mysqli_fetch_array($result);
                                 <label>NISN</label>
                                 <input type="text" name="nisn" value="<?php echo $row['nisn'] ?>"
                                     placeholder="Masukkan NISN Siswa" class="form-control">
-                  <input type=" hidden" name="id_siswa" value="<?php echo $row['id_siswa'] ?>">
+                                <input type=" hidden" name="id_siswa" value="<?php echo $row['id_siswa'] ?>">
                             </div>
 
                             <div class="form-group">
@@ -65,7 +65,9 @@ $row = mysqli_fetch_array($result);
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
