@@ -38,7 +38,7 @@ $row = mysqli_fetch_array($result);
                             <div class="form-group">
                                 <label>NISN</label>
                                 <input type="text" name="nisn" value="<?php echo $row['nisn'] ?>"
-                                    placeholder="Masukkan NISN Siswa" class="form-control”>
+                                    placeholder="Masukkan NISN Siswa" class="form-control">
                   <input type=" hidden" name="id_siswa" value="<?php echo $row['id_siswa'] ?>">
                             </div>
 
